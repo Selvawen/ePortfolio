@@ -6,7 +6,6 @@ This is my personal portfolio of projects!
 
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
 - [License](#license)
 
 ## Demo
