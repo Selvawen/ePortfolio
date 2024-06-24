@@ -10,8 +10,11 @@ This is my personal portfolio of projects!
 - [License](#license)
 
 ## Demo
-![video](https://github.com/Selvawen/ePortfolio-2023/assets/111338548/a445996f-6012-4f60-a833-3e68960ce7e8
-)
+![1](https://github.com/Selvawen/ePortfolio-2023/assets/111338548/96e87dcf-8210-4494-9025-4687763bbe83)
+![2](https://github.com/Selvawen/ePortfolio-2023/assets/111338548/4c727695-50c2-4e8c-8b4e-a0ed19b9e81f)
+![3](https://github.com/Selvawen/ePortfolio-2023/assets/111338548/db1bf8c2-71da-4fbb-9fe9-a86249cebc23)
+![4](https://github.com/Selvawen/ePortfolio-2023/assets/111338548/425c436c-aa24-477d-897d-7ad6afcfb6da)
+
 
 ## Technologies Used
 ![Static Badge](https://img.shields.io/badge/JavaScript-Yellow?logo=JavaScript&logoColor=Blue)
