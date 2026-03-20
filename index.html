@@ -243,6 +243,58 @@
             <li class="project">
               <div class="project__wrapper">
                 <a
+                  href="https://github.com/Selvawen/AWS-CloudTrail-Threat-Detection-Response-Pipeline-Terraform"
+                  target="_blank"
+                  class="project__view-btn"
+                  aria-label="View project"
+                >
+                  View project <i class="fas fa-external-link-alt"></i>
+                </a>
+                <img
+                  src="./assets/terraform-aws.png"
+                  class="project__img"
+                  alt="AWS CloudTrail Threat Detection Pipeline"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    AWS CloudTrail Threat Detection Pipeline
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    AWS CloudTrail, S3, EventBridge, Lambda, DynamoDB,
+                    Cloudwatch, AWS CLI, Terraform
+                  </h4>
+                  <p class="project__description--para">
+                    This project documents the design and implementation of a
+                    cloud-native detection pipeline in AWS. The goal was to
+                    simulate sensitive API activity, detect it in near
+                    real-time, and store structured alert data for analysis.
+                    Rather than simply provisioning resources, this lab
+                    demonstrates how activity inside an AWS account can be
+                    monitored, detected, and preserved for investigation.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/Selvawen/AWS-CloudTrail-Threat-Detection-Response-Pipeline-Terraform"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://github.com/Selvawen/AWS-CloudTrail-Threat-Detection-Response-Pipeline-Terraform"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project__wrapper">
+                <a
                   href="https://github.com/Selvawen/dfir-ai-assistant"
                   target="_blank"
                   class="project__view-btn"
@@ -295,7 +347,7 @@
             <li class="project">
               <div class="project__wrapper">
                 <a
-                  href="https://github.com/Selvawen/AWS-CloudTrail-Threat-Detection-Response-Pipeline-Terraform"
+                  href="https://github.com/Selvawen/fhir-exfil-detection"
                   target="_blank"
                   class="project__view-btn"
                   aria-label="View project"
@@ -303,37 +355,44 @@
                   View project <i class="fas fa-external-link-alt"></i>
                 </a>
                 <img
-                  src="./assets/terraform-aws.png"
+                  src="./assets/fhir-exfil-detection-proj.png"
                   class="project__img"
-                  alt="AWS CloudTrail Threat Detection Pipeline"
+                  alt="FHIR Data Exfiltration Detection Engine"
                 />
                 <div class="project__description">
                   <h3 class="project__description--title">
-                    AWS CloudTrail Threat Detection Pipeline
+                    FHIR Data Exfiltration Detection Engine
                   </h3>
                   <h4 class="project__description--sub-title">
-                    AWS CloudTrail, S3, EventBridge, Lambda, DynamoDB,
-                    Cloudwatch, AWS CLI, Terraform
+                    Python3, HAPI FHIR, Apache Kafka, OpenSearch, Docker
                   </h4>
                   <p class="project__description--para">
-                    This project documents the design and implementation of a
-                    cloud-native detection pipeline in AWS. The goal was to
-                    simulate sensitive API activity, detect it in near
-                    real-time, and store structured alert data for analysis.
-                    Rather than simply provisioning resources, this lab
-                    demonstrates how activity inside an AWS account can be
-                    monitored, detected, and preserved for investigation.
+                    This project is a healthcare-focused detection engine
+                    designed to identify abnormal access patterns in FHIR-based
+                    patient data systems. Instead of relying on traditional
+                    infrastructure-level security signals, it analyzes how data
+                    is accessed over time to detect behaviors such as bulk data
+                    scraping, off-hours activity, and misuse of service
+                    accounts. The system simulates realistic FHIR API
+                    interactions, streams access events through Kafka, and
+                    applies deterministic, explainable risk scoring using
+                    Python. Enriched events are then indexed into OpenSearch,
+                    where they can be visualized and investigated through
+                    dashboards. By focusing on behavioral analytics and
+                    explainability, this project demonstrates how real-world
+                    detection engineering can be applied to protect sensitive
+                    healthcare data from insider threats and credential misuse.
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="https://github.com/Selvawen/AWS-CloudTrail-Threat-Detection-Response-Pipeline-Terraform"
+                      href="https://github.com/Selvawen/fhir-exfil-detection"
                       target="_blank"
                       class="project__description--link"
                     >
                       <i class="fab fa-github"></i>
                     </a>
                     <a
-                      href="https://github.com/Selvawen/AWS-CloudTrail-Threat-Detection-Response-Pipeline-Terraform"
+                      href="https://github.com/Selvawen/fhir-exfil-detection"
                       target="_blank"
                       class="project__description--link"
                     >
@@ -415,7 +474,8 @@
                     Threat Hunt Report: Unauthorized TOR Usage
                   </h3>
                   <h4 class="project__description--sub-title">
-                    Windows 11 VM (Azure), Microsoft Defender for Endpoint, KQL, Tor Browser
+                    Windows 11 VM (Azure), Microsoft Defender for Endpoint, KQL,
+                    Tor Browser
                   </h4>
                   <p class="project__description--para">
                     A real-world threat hunting scenario investigating
